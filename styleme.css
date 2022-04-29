@@ -62,3 +62,13 @@ input[type=submit]:hover {
 .blue {
     color: #1d0daf;
 }
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
