@@ -29,3 +29,36 @@ input[type=submit]:hover {
     background-color: #1801e6;
     padding: 20px;
 }
+
+.mr-lr-30p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#form-container {
+    border: 2px rgb(44, 165, 187) solid;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
+    color: #eb1c3a;
+}
+
+.blue {
+    color: #1d0daf;
+}
