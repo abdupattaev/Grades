@@ -9,13 +9,13 @@
 
 <body>
     <section>
-        <h1>Retrieve your grade</h1>
+        <h1 id="header" style="text-align: center; font: normal small-caps bold 40px/8px Courier;">Retrieve your grade</h1>
     </section>
-    
+
     <form method="GET" action="http://mumstudents.org/params.php" autocomplete=“on”>
         <div id="form-container" class="center mr-lr-30p p-2">
             <div class="row">
-                <div class="col-25">
+                <div class="nameid">
                     <label for="name">Name:</label>
                 </div>
                 <div class="col-75">
@@ -23,15 +23,15 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-25">
+                <div class="nameid">
                     <label for="sudentId">Student ID:</label>
                 </div>
-                <div class="col-75">
+                <div class="studentid">
                     <input type="text" id="sudentId" name="sudentId" placeholder="Your Student ID.." />
                 </div>
             </div>
             <div class="row">
-                <div class="col-75">
+                <div class="studentid">
                     <input type="submit" value="Get Grade!" />
                 </div>
             </div>

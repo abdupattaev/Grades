@@ -4,7 +4,6 @@ section {
     background: #ffffff73;
     padding: 16px;
     margin: 10px;
-
 }
 label {
     padding: 12px 12px 12px 0;
@@ -52,12 +51,12 @@ textarea {
 .center {
     text-align: center;
 }
-.col-25 {
+.nameid {
     float: left;
     width: 25%;
     margin-top: 6px;
 }
-.col-75 {
+.studentid {
     float: left;
     width: 55%;
     margin-top: 6px;
