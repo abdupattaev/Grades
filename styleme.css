@@ -51,12 +51,12 @@ textarea {
 .center {
     text-align: center;
 }
-.nameid {
+.col-text {
     float: left;
     width: 25%;
     margin-top: 6px;
 }
-.studentid {
+.col-input {
     float: left;
     width: 55%;
     margin-top: 6px;
