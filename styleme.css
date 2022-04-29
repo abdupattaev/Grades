@@ -36,9 +36,10 @@ textarea {
     width: 75%;
     margin-top: 6px;
 }
-.mr-lr-30p {
+.body {
     margin-left: 30%;
     margin-right: 30%;
+    padding: 2%;
 }
 
 .inline {
@@ -65,11 +66,6 @@ textarea {
     float: left;
     width: 55%;
     margin-top: 6px;
-}
-.col-input2{
-    /* float: center;
-    width: 55%;
-    margin-top: 6px; */
 }
 .row:after {
     content: "";
