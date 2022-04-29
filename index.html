@@ -9,7 +9,7 @@
 
 <body>
     <section>
-        <h1 id="header" style="text-align: center; font: normal small-caps bold 40px/8px Courier;">Retrieve your grade</h1>
+        <h1 id="header" style="text-align: center; font: normal small-caps bold 40px/8px oblique;">Retrieve your grade</h1>
     </section>
 
     <form method="GET" action="http://mumstudents.org/params.php" autocomplete=“on”>
@@ -28,6 +28,42 @@
                 </div>
                 <div class="col-input">
                     <input type="text" id="sudentId" name="sudentId" placeholder="Your Student ID.." />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-name">
+                    <label for="entry">Entry:</label>
+                </div>
+                <div class="col-input">
+                    <div class="col-name">
+                        <input type="radio" name="entry" id="Feb-2021">
+                        <label for="Feb-2021">Feb 2022</label>
+                    </div>
+                    <div class="col-name">
+                        <input type="radio" name="entry" value="May 2021">
+                        <label for="May-2021">May 2022</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-input2">
+                    <label for="assignment">Assignments:</label>
+                    <select name = "assignment">
+                        <option value="Assignment-1">Assignment Lab01</option>
+                        <option value="Assignment-2">Assignment Lab02</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-text">
+                    <label for="privacy">Privacy:</label>
+                </div>
+                <div class="col-input">
+                    <div class="col-checkbox">
+                        <input type="checkbox" id="privacy" name="privacy" value="privacy">
+                        <label for="privacy">I accept Terms and Conditions!</label>
+                    </div>
                 </div>
             </div>
             <div class="row">

@@ -10,6 +10,7 @@ label {
     display: inline-block;
 }
 
+
 input[type=submit] {
     background-color: rgb(30, 38, 30);
     color: white;
@@ -30,7 +31,11 @@ textarea {
     border-radius: 4px;
     resize: vertical;
 }
-
+.col-checkbox{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
 .mr-lr-30p {
     margin-left: 30%;
     margin-right: 30%;
@@ -60,6 +65,11 @@ textarea {
     float: left;
     width: 55%;
     margin-top: 6px;
+}
+.col-input2{
+    /* float: center;
+    width: 55%;
+    margin-top: 6px; */
 }
 .row:after {
     content: "";
