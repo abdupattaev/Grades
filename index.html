@@ -2,14 +2,48 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <title>Retrieve Grade</title>
+    <link href="styleme.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Retrieve your grade</h1>
+    <section>
+        <h1>Retrieve your grade</h1>
+    </section>
     <p>Name: ...</p>
     <p>Student ID: ...</p>
     Get Grade!
+
+    <form method="GET" action="http://mumstudents.org/params.php" autocomplete=“on”>
+        <div id="form-container" class="center mr-lr-30p p-2">
+            <div class="row">
+                <div class="col-25">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="name" name="name" placeholder="Your Name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="sudentId">Student ID:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="sudentId" name="sudentId" placeholder="Your Student ID.." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="submit" value="Get Grade!" />
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+
+
 </body>
 
 </html>
