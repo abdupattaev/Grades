@@ -4,4 +4,28 @@ section {
     background: #ffffff73;
     padding: 16px;
     margin: 10px;
+
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #052a06;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover {
+    background-color: #8c9e8d;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #1801e6;
+    padding: 20px;
 }
